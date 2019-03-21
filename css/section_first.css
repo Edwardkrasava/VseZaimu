@@ -1,0 +1,124 @@
+.section_first {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.title_condition_sect {
+    margin: 0 0 20px 50px;
+    padding-top: 25px;
+    color: #00a7d1;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.list_condition {
+    list-style-image: url(../img/check_mark.png);
+    margin-left: 103px;
+}
+
+.li_conditions {
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.text_under_li {
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    padding: 35px 80px 45px 38px;
+}
+
+.wrap_hand_img_text {
+    max-width: 938px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap_text_hand {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_text_hand_img {
+    color: #00a7d1;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 12px;
+}
+
+.text_hand_img {
+    max-width: 455px;
+    width: 100%;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.yellow_text {
+    color: #ffba01;
+}
+
+.wrap_text_under_hand {
+    padding-top: 48px;
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title_under_hand {
+    color: #00a7d1;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.text_under_hand {
+    padding-top: 12px;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.list {
+    max-width: 862px;
+    width: 100%;
+    margin: 50px auto 53px;
+    list-style-image: url(../img/point.png);
+}
+
+.img_man {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+.wrap_man_img_text {
+    margin: 0 auto;
+    max-width: 920px;
+    width: 100%;
+}
+
+.title_man {
+    padding-top: 59px;
+    color: #00a7d1;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.text_man {
+    padding: 35px 0 62px;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}

@@ -1,0 +1,254 @@
+.aside {
+    margin-top: 0 !important;
+    float: left;
+    max-width: 320px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 9999;
+}
+
+.wrap_title_header {
+    height: 116px;
+    text-align: center;
+}
+
+.wrap_title_aside {
+    margin: 0 auto;
+    max-width: 310px;
+    width: 100%;
+}
+
+.title_aside {
+    max-width: 228px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    color: #00a7d1;
+    font-family: Geometria;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 35px;
+    padding-top: 37px;
+}
+
+.wrap_title_aside::after {
+    content: "";
+    position: absolute;
+    top: 109px;
+    left: 5px;
+    max-width: 310px !important;
+    width: 100%;
+    height: 1px;
+    background-color: #cccccc;
+}
+
+.list_header_aside {
+    margin-left: 58px;
+    padding-bottom: 15px;
+}
+
+.wrap_aside_header_text {
+    margin: 30px 0 18px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.aside_header_text {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.change_lang {
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap_arrow_lang {
+    width: 58px;
+    padding: 9px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.arrow_lang {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.language_show_list {
+    padding-bottom: 9px;
+    cursor: pointer;
+    display: none;
+}
+
+.language_show_list.active_language {
+    display: block;
+}
+
+.arrow_lang.active_arrow {
+    transform: rotate(180deg);
+}
+
+.calculation_block {
+    margin-left: 58px;
+    margin-top: 20px;
+}
+
+.title_calc {
+    color: #00a7d1;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.title_calc_dinero {
+    font-weight: 700;
+}
+
+.title_calc_comission {
+    font-weight: 300;
+}
+
+.block_deadline_amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    max-width: 232px;
+    width: 100%;
+}
+
+.wrap_condition_aside {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 11px;
+    width: 113px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #cccccc;
+}
+
+.number_condition_aside {
+    color: #ffba01;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.days_currency_aside {
+    padding-top: 5px;
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.wrap_form_loan {
+    max-width: 224px;
+    width: 100%;
+}
+
+.form_loan {
+    margin: 30px auto 0;
+    border-radius: 5px;
+}
+
+.deadline_time {
+    margin-top: 25px;
+}
+
+.slider {
+    width: 220px;
+    height: 11px;
+    background: #eee;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.ui-slider {
+    border-radius: 5px;
+}
+
+.ui-slider-handle {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: -12px;
+    margin-left: -12px;
+    z-index: 200;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.circle_in_handle {
+    background: #fc0;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.ui-widget-header {
+    background-image: linear-gradient(to left, #ffba01 0%, #ff9600 100%);
+    height: 8px;
+    left: 1px;
+    top: 1px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.commission_block {
+    margin-top: 25px;
+    max-width: 221px !important;
+    width: 100%;
+}
+
+.wrap_payment_aside {
+    border: none;
+}
+
+.payment_block {
+    margin-top: 25px;
+    max-width: 217px !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calculate_commission {
+    margin-top: 30px;
+    cursor: pointer;
+}

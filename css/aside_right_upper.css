@@ -1,0 +1,53 @@
+.aside_right_upper {
+    max-width: 320px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.text_title_right_upper_aside {
+    max-width: 246px;
+    width: 100%;
+    margin: 0 auto 32px;
+}
+
+.title_right_upper_aside {
+    padding-top: 25px;
+    color: #00a7d1;
+    font-family: Geometria;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.text_title_right_upper_aside p {
+    text-align: center;
+    padding-top: 25px;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.aside_input_name,
+.aside_input_mail {
+    max-width: 260px;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.inputs_field_aside_right {
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+.aside_input_name {
+    margin-bottom: 20px;
+}
+
+.btn_send_aside {
+    margin: 0 auto 40px !important;
+}

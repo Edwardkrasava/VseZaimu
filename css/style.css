@@ -1,0 +1,69 @@
+@import url(aside.css);
+@import url(aside_right_upper.css);
+@import url(aside_right_down.css);
+@import url(header.css);
+@import url(section_first.css);
+@import url(reviews.css);
+@import url(footer.css);
+
+body {
+    background-color: #e1eeff;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.wrap_main {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.section {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.wrap_for_right_sections {
+    margin: 110px auto 0;
+    /* max-width: 1400px; */
+    max-width: 83.3%;
+    width: 100%;
+    float: right;
+}
+
+.wrap_for_rights_asides {
+    margin-right: 190px;
+    max-width: 320px;
+    width: 100%;
+    float: right;
+}
+
+.wrap_for_central_sections {
+    max-width: 1056px;
+    width: 100%;
+    float: none;
+}
+
+
+
+@font-face {
+    font-family: Geometria;
+    src: url(../fonts/Geometria/Geometria.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: YandexSansText;
+    src: url(../fonts/YandexSans/YandexSansText-Thin.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
